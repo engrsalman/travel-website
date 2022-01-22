@@ -206,7 +206,7 @@
         border-radius: inherit;
         padding: 4rem 3rem;
         max-width: 100%;
-        width: 40rem;
+        width: 50rem;
     }
 
     #main > .inner > header {
@@ -1495,7 +1495,7 @@
 
     #container01 > .wrapper {
         display: inline-block;
-        width: 36rem;
+        width: 44rem;
         background-color: transparent;
     }
 
@@ -4957,28 +4957,29 @@
 <div id="wrapper">
     <div id="main">
         <div class="inner">
+
             <section id="home-section" class="active" style="">
                 <div id="container01" class="container default">
                     <div class="wrapper">
                         <div class="inner">
-                            <div id="image01" class="image"><span class="frame deferred"
-                                                                  style="background-image: none; background-size: 100% 100%; background-position: left top; background-repeat: no-repeat;"><img
-                                    src="assets/images/image01.png?v=a83705fe" data-src="done" alt=""
-                                    style="opacity: 1;"></span></div>
-                            <ul id="buttons06" class="buttons">
-                                <li><a href="#about" class="button n01">ABOUT</a></li>
+                            <div id="image01" class="image"><span class="frame deferred" style="background-image: none; background-size: 100% 100%; background-position: left top; background-repeat: no-repeat;">
+                    <img src="{{asset('assets/images/image1.jpeg')}}" data-src="done" alt="" style="opacity: 1;"></span>
+                            </div>
+                            <ul id="buttons06" class="buttons">    
+                              <!--   <li><a href="#about" class="button n01">ABOUT US</a></li> -->
                                 <li><a href="#services" class="button n02">SERVICES</a></li>
-                                <li><a href="#work" class="button n03">HOW WE WORK</a></li>
-                                <li><a href="#specialization" class="button n04">SPECIALIZATION</a></li>
-                                <li><a href="https://voyageplanner.business.site/" class="button n05">REVIEWS</a></li>
-                                <li><a href="https://medium.com/reborn-unsettled" class="button n06">BLOG</a></li>
-                                <li><a href="#contact" class="button n07">CONTACT</a></li>
-                                <li><a href="#followus" class="button n08">FOLLOW US</a></li>
+                                <li><a href="#work" class="button n03">TESTIMONIALS</a></li>
+                                <li><a href="#specialization" class="button n04">MAIN</a></li>
+                                <li><a href="https://voyageplanner.business.site/" class="button n05">GALLERY</a></li>
+                               <!--  <li><a href="https://medium.com/reborn-unsettled" class="button n06">BLOG</a></li> -->
+                                <li><a href="#contact" class="button n07">CONTACT US</a></li>
+                               
                             </ul>
                         </div>
                     </div>
                 </div>
             </section>
+
             <section id="about-section" class="inactive" style="display: none;">
                 <div id="container03" class="container default">
                     <div class="wrapper">
@@ -4999,6 +5000,7 @@
                     </div>
                 </div>
             </section>
+
             <section id="services-section" class="inactive" style="display: none;">
                 <div id="container04" class="container default">
                     <div class="wrapper">
@@ -5007,18 +5009,22 @@
                                 <li><a href="#home" class="button n01">← Back</a></li>
                             </ul>
                             <h2 id="text07">Services We Offer:</h2>
-                            <p id="text09"><span class="li">Domestic and International Customized Holidays.</span><span
-                                    class="li">Flight and Train Tickets.</span><span
+                            <p id="text09"><span class="li">Flight Bookings (Domestic & International).</span><span
+                                    class="li">Hotel Bookings (Domestic & International).</span><span
                                     class="li">Bus and Cab Bookings.</span><span
-                                    class="li">Self Drive Car Bookings.</span><span
-                                    class="li">Cruise Holidays.</span><span class="li">Heritage, Religious and Gastronomy Tourism.</span><span
-                                    class="li">Accommodation Bookings (Hotels, Airbnb, Hostel, Camping, etc.)</span><span
-                                    class="li">Visa Assistance - Tourist, Business, and Education.</span><span
-                                    class="li">Passport Services.</span><span><span class="li">Foreign Exchange.</span></span>
+                                    class="li">Holiday Packages for Domestic & International Travel.</span><span
+                                    class="li">Flight Tickets.</span>
+                                    <span class="li">Visa Assistance.</span><span
+                                    class="li">Overseas Medical Insurance</span><span
+                                    class="li">Corporate Travel</span>
+                                    <!-- <span
+                                    class="li">Passport Services.</span><span><span 
+                                    class="li">Foreign Exchange.</span></span> -->
                             </p></div>
                     </div>
                 </div>
             </section>
+
             <section id="work-section" class="inactive" style="display: none;">
                 <div id="container06" class="container default">
                     <div class="wrapper">
@@ -5039,6 +5045,7 @@
                     </div>
                 </div>
             </section>
+
             <section id="specialization-section" class="inactive" style="display: none;">
                 <div id="container02" class="container default">
                     <div class="wrapper">
@@ -5046,22 +5053,20 @@
                             <ul id="buttons01" class="buttons">
                                 <li><a href="#home" class="button n01">← Back</a></li>
                             </ul>
-                            <h2 id="text02">What Makes Voyage Planner Stand Apart?</h2>
-                            <p id="text08"><strong>Voyage Planner</strong> is a small and independent travel company
-                                with an unapologetically honest opinion on offering travel services. We understand
-                                everyone's needs are different and important, it should be respected. Everything we
-                                offer is handpicked. We only collaborate with the most high-grade hotels, resorts,
-                                hostels, rental accommodation, and transport companies, making sure that the highest
-                                safety and comfort standards are always met.</p>
-                            <div id="embed02"><a target="_blank"
-                                                 href="https://www.tripoto.com/profile/shwetalakhwani"><img
-                                    src="https://cdn1.tripoto.com/200.2/img/widget/tripoto_approved_blogger_2.jpg"
-                                    alt="Tripoto"></a></div>
+                            <h2 id="text02">Welcome To “Trawell Story”</h2>
+                            <h2 style="text-align: center; color:red;">“WHERE THE JOURNEY BEGINS.”</h2>
+                            <p id="text08">“Follow your passion — and if you don’t know what it is, realize that one reason for your existence on earth is to find it.” —how aptly said by Oprah Winfrey. Trawell Story, a venture Pooja Shah, self - motivated, dedicated smart worker, who believes in taking calculated risks. She literally goes for what she dreams of. A Travel Enthusiast, she travels with a group, family and friends, whether on business or on a solo trip. May it be Ziplining in the Iguazu Forest of Argentina or the Big Swing in South Africa and walking through the Glacier Tunnel in Iceland, she is an absolute Adrenaline junkie. One can spend a whole day listening to her memorable travel stories. It will remind you the famous words “Don't tell me how educated you are, tell me how much you have travelled”.  Destiny welcomed her to the wonderful world of travel. It all started with understanding, organizing and managing tours within India in the year 2004 under the banner of CNE Holidays. Later, she also escorted groups and successfully managed them. After gaining enough knowledge of domestic market, she moved on to Makemytrip.com where she was handling the Group Desk. She spent 3 successful years with this company which gave her ample opportunity to learn and excel in this field. But the urge to learn more and grow made her move to another very successful organization, Vacations Exotica – Balmer Lawrie for several years. It was here that she came in contact with thorough travel professionals from whom she quickly started learning the methods of preparing customized itineraries. The process was not easy. With true dedication, hard work and the passion to travel, she learnt the reins of the business. She left no stone unturned to know what she wanted to know and to do which was beyond imagination for most of us. Who would have known, a little step for her would be a beginning of a great journey. . She loves to travel around the world and celebrate the occasion called “Life”. She believes in a simple yet profound ideology, “Change is the only Constant’. In today’s day and age, one has to be constantly changing, evolving and adapting to the new world and environment to make work a better place to be at and life, a better place to live in. She truly believes that the determination to grow and develop lies within oneself and one should never be content with “Just what they have”. Always strive for more, Always achieve more is her mantra!</p>
+
+                           <!--  <div id="embed02"><a target="_blank" href="https://www.tripoto.com/profile/shwetalakhwani">
+                                <img src="https://cdn1.tripoto.com/200.2/img/widget/tripoto_approved_blogger_2.jpg" alt="Tripoto">
+                                 </a>
+                            </div> -->
                         </div>
                     </div>
                 </div>
             </section>
-            <section id="contact-section" class="inactive" style="display: none;">
+
+            <section id="contact-section" class="inactive" style="display:none;">
                 <div id="container05" class="container default">
                     <div class="wrapper">
                         <div class="inner">
@@ -5074,63 +5079,77 @@
                                     <svg>
                                         <use xlink:href="#icon-904"></use>
                                     </svg>
-                                    <span class="label">Phone</span></a></li>
+                                    <span class="label">Phone</span></a>
+                                </li>
                                 <li><a class="n02" href="https://wa.me/message/CPHIV2HCNPRKB1">
                                     <svg>
                                         <use xlink:href="#icon-934"></use>
                                     </svg>
-                                    <span class="label">WhatsApp</span></a></li>
+                                    <span class="label">WhatsApp</span></a>
+                                </li>
                                 <li><a class="n03"
                                        href="mailto:%69%6e%66%6f%40%76%6f%79%61%67%65%70%6c%61%6e%6e%65%72%2e%63%6f%2e%69%6e">
                                     <svg>
                                         <use xlink:href="#icon-901"></use>
                                     </svg>
-                                    <span class="label">Email (alt)</span></a></li>
+                                    <span class="label">Email (alt)</span></a>
+                                </li>
                                 <li><a class="n04" href="https://facebook.com/voyageplanner">
                                     <svg>
                                         <use xlink:href="#icon-906"></use>
                                     </svg>
-                                    <span class="label">Facebook</span></a></li>
+                                    <span class="label">Facebook</span></a>
+                                </li>
                                 <li><a class="n05" href="https://instagram.com/voyageplanner_">
                                     <svg>
                                         <use xlink:href="#icon-910"></use>
                                     </svg>
-                                    <span class="label">Instagram</span></a></li>
+                                    <span class="label">Instagram</span></a>
+                                </li>
                             </ul>
                             <p id="text06">Send us your inquiry using the form below, and we will get back to you within
                                 48 hours.</p>
                             <form id="form02" method="post">
                                 <div class="inner">
-                                    <div class="field"><input type="text" name="name" id="form02-name"
-                                                              placeholder="Name" maxlength="128" required=""></div>
-                                    <div class="field"><input type="text" name="company" id="form02-company"
-                                                              placeholder="Company Name (optional)" maxlength="128">
-                                    </div>
-                                    <div class="field"><input type="email" name="email" id="form02-email"
-                                                              placeholder="Email" maxlength="128" required=""></div>
-                                    <div class="field"><input type="text" name="phone" id="form02-phone"
-                                                              placeholder="Phone Number" maxlength="64" required="">
-                                    </div>
-                                    <div class="field"><input type="text" name="subject" id="form02-subject"
-                                                              placeholder="Subject" maxlength="128" required=""></div>
-                                    <div class="field" style="display: none;"><input type="text" name="fname"
-                                                                                     id="form02-fname"
-                                                                                     placeholder="Fname" maxlength="128"
-                                                                                     disabled=""></div>
-                                    <div class="field"><textarea data-gramm_editor="false" name="message"
-                                                                 id="form02-message" placeholder="Message"
-                                                                 maxlength="16384" required=""></textarea></div>
+
                                     <div class="field">
-                                        <div class="checkbox"><input type="checkbox" name="consent" id="form02-consent"
-                                                                     value="checked" required=""><label
-                                                for="form02-consent"><span>I accept the above information will be used to contact me.</span></label>
+                                        <input type="text" name="fname" id="form02-fname" placeholder="First Name" maxlength="128">
+                                    </div>
+
+                                    <div class="field">
+                                        <input type="text" name="lname" id="form02-lname" placeholder="Last Name" maxlength="128">
+                                    </div>
+
+                                    
+                                    <div class="field">
+                                        <input type="email" name="email" id="form02-email" placeholder="Email" maxlength="128" required="">
+                                    </div>
+                                    <div class="field">
+                                        <input type="text" name="phone" id="form02-phone" placeholder="Phone Number" maxlength="64" required="">
+                                    </div>
+                                    <div class="field">
+                                        <input type="text" name="subject" id="form02-subject" placeholder="Subject" maxlength="128" required="">
+                                    </div>
+                                    <div class="field" style="display: none;">
+                                        <input type="text" name="fname" id="form02-fname" placeholder="Fname" maxlength="128" disabled="">
+                                    </div>
+                                    <div class="field">
+                                        <textarea data-gramm_editor="false" name="message" id="form02-message" placeholder="Message" maxlength="16384" required=""></textarea>
+                                    </div>
+                                    <div class="field">
+                                        <div class="checkbox">
+                                            <input type="checkbox" name="consent" id="form02-consent" value="checked" required=""><label
+                                                for="form02-consent">
+                                                <span>I accept the above information will be used to contact me.</span></label>
                                         </div>
                                     </div>
                                     <div class="actions">
                                         <button type="submit">Send Message</button>
                                     </div>
                                 </div>
-                                <input type="hidden" name="id" value="form02"></form>
+                                <input type="hidden" name="id" value="form02">
+                            </form>
+
                             <div id="embed03">
                                 <div id="fb-root" class=" fb_reset">
                                     <div style="position: absolute; top: -10000px; width: 0px; height: 0px;">
@@ -5223,6 +5242,8 @@
         </div>
     </div>
 </div>
+
+
 <script>(function () {
     var on = addEventListener, $ = function (q) {
         return document.querySelector(q)
@@ -6266,6 +6287,7 @@
             });
         });
     };
+
     new form('form02', {
         mode: 'contact',
         method: 'ajax',
