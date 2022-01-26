@@ -4979,9 +4979,9 @@
                             </div>
                             <ul id="buttons06" class="buttons">    
                               <!--   <li><a href="#about" class="button n01">ABOUT US</a></li> -->
-                                <li><a href="#specialization" class="button n04">ABOUT US</a></li>
+                                <li><a href="#about" class="button n04">ABOUT US</a></li>
                                 <li><a href="#services" class="button n02">SERVICES</a></li>
-                                <li><a href="https://voyageplanner.business.site/" class="button n05">GALLERY</a></li>
+                                <li><a href="#gallery" class="button n05">GALLERY</a></li>
                                 <li><a href="#work" class="button n03">TESTIMONIALS</a></li>
                                 <li><a href="#contact" class="button n07">CONTACT US</a></li>
                                 
@@ -4993,28 +4993,27 @@
                     </div>
                 </div>
             </section>
-
+            
             <section id="about-section" class="inactive" style="display: none;">
-                <div id="container03" class="container default">
+                <div id="container02" class="container default">
                     <div class="wrapper">
                         <div class="inner">
-                            <ul id="buttons02" class="buttons">
+                            <ul id="buttons01" class="buttons">
                                 <li><a href="#home" class="button n01">← Back</a></li>
                             </ul>
-                            <h2 id="text05">About Us</h2>
-                            <p id="text10">
-                                <span><strong>Voyage Planner</strong> is a <strong>Travel Planner company</strong> Est. 2012, based in Ahmedabad (Gujarat), India. A venture by <a
-                                        href="http://instagram.com/24savannah_">Shweta Lakhwani</a>. <strong>Voyage Planner</strong> offers curated budget travel packages, promoting local culture, slow travels, and hidden gems. We aim to be your trusted travel partner and want to work collaboratively with you to bring your travel dreams to life.</span><br>
-                                <br> <span><strong>Voyage Planner</strong> has a tremendous reputation for <a
-                                    href="https://voyageplanner.business.site/">service</a>, quality, and rock-bottom pricing for all of your travel needs. Domestic and international tours, pilgrim journeys, cruise holidays, indulgence honeymoon, and much more. We offer exclusively tailor-made vacations which fit your budget.</span><br>
-                                <br> <span>We at <strong>Voyage Planner</strong> believe in <strong>" the art of slow travel."</strong> Rather than endeavoring to squeeze as many sights or cities into each trip, the slow traveler takes time to explore each destination thoroughly and experience local culture. Slow travel allows you to form a stronger connection to the place you're traveling, and you will feel much less rushed.</span><br>
-                                <br> <span>With our <strong>'slow itinerary,'</strong> you won't endure the stress of attempting to knock out every site in your guidebook. Instead, you will stay in one place long enough to recognize people around, shop in the local markets, pick your favorite food and coffee house. You can rent a cottage or apartment for a week time and explore your immediate surroundings.</span><br>
-                                <br> <span>Part of the reward of slow travel is making a connection with the new people you meet, learning new customs and languages, allowing yourself to escape your own stressful day-to-day life, and slipping naturally into the pace of another culture.</span>
-                            </p></div>
+                            <h2 id="text02">Welcome To “Trawell Story”</h2>
+                            <h2 style="text-align: center; color:red;">“WHERE THE JOURNEY BEGINS.”</h2>
+                            <p id="text08">“Follow your passion — and if you don’t know what it is, realize that one reason for your existence on earth is to find it.” —how aptly said by Oprah Winfrey. Trawell Story, a venture Pooja Shah, self - motivated, dedicated smart worker, who believes in taking calculated risks. She literally goes for what she dreams of. A Travel Enthusiast, she travels with a group, family and friends, whether on business or on a solo trip. May it be Ziplining in the Iguazu Forest of Argentina or the Big Swing in South Africa and walking through the Glacier Tunnel in Iceland, she is an absolute Adrenaline junkie. One can spend a whole day listening to her memorable travel stories. It will remind you the famous words “Don't tell me how educated you are, tell me how much you have travelled”.  Destiny welcomed her to the wonderful world of travel. It all started with understanding, organizing and managing tours within India in the year 2004 under the banner of CNE Holidays. Later, she also escorted groups and successfully managed them. After gaining enough knowledge of domestic market, she moved on to Makemytrip.com where she was handling the Group Desk. She spent 3 successful years with this company which gave her ample opportunity to learn and excel in this field. But the urge to learn more and grow made her move to another very successful organization, Vacations Exotica – Balmer Lawrie for several years. It was here that she came in contact with thorough travel professionals from whom she quickly started learning the methods of preparing customized itineraries. The process was not easy. With true dedication, hard work and the passion to travel, she learnt the reins of the business. She left no stone unturned to know what she wanted to know and to do which was beyond imagination for most of us. Who would have known, a little step for her would be a beginning of a great journey. . She loves to travel around the world and celebrate the occasion called “Life”. She believes in a simple yet profound ideology, “Change is the only Constant’. In today’s day and age, one has to be constantly changing, evolving and adapting to the new world and environment to make work a better place to be at and life, a better place to live in. She truly believes that the determination to grow and develop lies within oneself and one should never be content with “Just what they have”. Always strive for more, Always achieve more is her mantra!</p>
+
+                           <!--  <div id="embed02"><a target="_blank" href="https://www.tripoto.com/profile/shwetalakhwani">
+                                <img src="https://cdn1.tripoto.com/200.2/img/widget/tripoto_approved_blogger_2.jpg" alt="Tripoto">
+                                 </a>
+                            </div> -->
+                        </div>
                     </div>
                 </div>
             </section>
-
+            
             <section id="services-section" class="inactive" style="display: none;">
                 <div id="container04" class="container default">
                     <div class="wrapper">
@@ -5039,6 +5038,53 @@
                 </div>
             </section>
 
+            <section id="gallery-section" class="inactive" style="display: none;">
+                <div id="container03" class="container default">
+                    <div class="wrapper">
+                        <div class="inner">
+                            <ul id="buttons02" class="buttons">
+                                <li><a href="#home" class="button n01">← Back</a></li>
+                            </ul>
+                            <h2 id="text05">Gallery </h2>
+
+                            <div class="container">
+                                 <h3 id="text05">Dubai</h3><br>
+                                <div class="row">
+                                    <div class="col-md-2">
+                                        <img style="width:250px; height:200px; border-radius: 5px;" src="{{asset('assets/images/gallery/Dubai/dubai_1.jpg')}}" alt="">
+
+                                        <img style="width:250px; height:200px; border-radius: 5px;" src="{{asset('assets/images/gallery/Dubai/dubai_2.jpg')}}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="container">
+                                 <h3 id="text05">Dubai</h3><br>
+                                <div class="row">
+                                    <div class="col-md-2">
+                                        <img style="width:250px; height:200px; border-radius: 5px;" src="{{asset('assets/images/gallery/Dubai/dubai_1.jpg')}}" alt="">
+
+                                        <img style="width:250px; height:200px; border-radius: 5px;" src="{{asset('assets/images/gallery/Dubai/dubai_2.jpg')}}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="container">
+                                 <h3 id="text05">Dubai</h3><br>
+                                <div class="row">
+                                    <div class="col-md-2">
+                                        <img style="width:250px; height:200px; border-radius: 5px;" src="{{asset('assets/images/gallery/Dubai/dubai_1.jpg')}}" alt="">
+
+                                        <img style="width:250px; height:200px; border-radius: 5px;" src="{{asset('assets/images/gallery/Dubai/dubai_2.jpg')}}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </section>
+
             <section id="work-section" class="inactive" style="display: none;">
                 <div id="container06" class="container default">
                     <div class="wrapper">
@@ -5058,34 +5104,14 @@
                             </p></div>
                     </div>
                 </div>
-            </section>
-
-            <section id="specialization-section" class="inactive" style="display: none;">
-                <div id="container02" class="container default">
-                    <div class="wrapper">
-                        <div class="inner">
-                            <ul id="buttons01" class="buttons">
-                                <li><a href="#home" class="button n01">← Back</a></li>
-                            </ul>
-                            <h2 id="text02">Welcome To “Trawell Story”</h2>
-                            <h2 style="text-align: center; color:red;">“WHERE THE JOURNEY BEGINS.”</h2>
-                            <p id="text08">“Follow your passion — and if you don’t know what it is, realize that one reason for your existence on earth is to find it.” —how aptly said by Oprah Winfrey. Trawell Story, a venture Pooja Shah, self - motivated, dedicated smart worker, who believes in taking calculated risks. She literally goes for what she dreams of. A Travel Enthusiast, she travels with a group, family and friends, whether on business or on a solo trip. May it be Ziplining in the Iguazu Forest of Argentina or the Big Swing in South Africa and walking through the Glacier Tunnel in Iceland, she is an absolute Adrenaline junkie. One can spend a whole day listening to her memorable travel stories. It will remind you the famous words “Don't tell me how educated you are, tell me how much you have travelled”.  Destiny welcomed her to the wonderful world of travel. It all started with understanding, organizing and managing tours within India in the year 2004 under the banner of CNE Holidays. Later, she also escorted groups and successfully managed them. After gaining enough knowledge of domestic market, she moved on to Makemytrip.com where she was handling the Group Desk. She spent 3 successful years with this company which gave her ample opportunity to learn and excel in this field. But the urge to learn more and grow made her move to another very successful organization, Vacations Exotica – Balmer Lawrie for several years. It was here that she came in contact with thorough travel professionals from whom she quickly started learning the methods of preparing customized itineraries. The process was not easy. With true dedication, hard work and the passion to travel, she learnt the reins of the business. She left no stone unturned to know what she wanted to know and to do which was beyond imagination for most of us. Who would have known, a little step for her would be a beginning of a great journey. . She loves to travel around the world and celebrate the occasion called “Life”. She believes in a simple yet profound ideology, “Change is the only Constant’. In today’s day and age, one has to be constantly changing, evolving and adapting to the new world and environment to make work a better place to be at and life, a better place to live in. She truly believes that the determination to grow and develop lies within oneself and one should never be content with “Just what they have”. Always strive for more, Always achieve more is her mantra!</p>
-
-                           <!--  <div id="embed02"><a target="_blank" href="https://www.tripoto.com/profile/shwetalakhwani">
-                                <img src="https://cdn1.tripoto.com/200.2/img/widget/tripoto_approved_blogger_2.jpg" alt="Tripoto">
-                                 </a>
-                            </div> -->
-                        </div>
-                    </div>
-                </div>
-            </section>
+            </section>     
              
             <section id="contact-section" class="inactive" style="display:none;">
                 <div id="container05" class="container default">
                     <div class="wrapper">
                         <div class="inner">
                             <ul id="buttons05" class="buttons">
-                                <li><a href="#home" class="button n01">← Back</a></li>
+                                <li><a href="#home" class="button n01 back_btn" >← Back</a></li>
                             </ul>
                             <h2 id="text01">Contact Us</h2>
                             <ul id="icons01" class="icons">
@@ -5511,36 +5537,7 @@
                     </div>
                 </div>
             </section>
-            <section id="followus-section" class="inactive" style="display: none;">
-                <div id="container07" class="container default">
-                    <div class="wrapper">
-                        <div class="inner"><h2 id="text11">Follow Us</h2>
-                            <ul id="icons02" class="icons">
-                                <li><a class="n01" href="https://medium.com/reborn-unsettled">
-                                    <svg>
-                                        <use xlink:href="#icon-935"></use>
-                                    </svg>
-                                    <span class="label">Medium</span></a></li>
-                                <li><a class="n02" href="https://instagram.com/voyageplanner_">
-                                    <svg>
-                                        <use xlink:href="#icon-910"></use>
-                                    </svg>
-                                    <span class="label">Instagram</span></a></li>
-                                <li><a class="n03" href="https://www.facebook.com/voyageplanner/">
-                                    <svg>
-                                        <use xlink:href="#icon-906"></use>
-                                    </svg>
-                                    <span class="label">Facebook</span></a></li>
-                                <li><a class="n04" href="https://www.linkedin.com/company/voyageplanner">
-                                    <svg>
-                                        <use xlink:href="#icon-90b"></use>
-                                    </svg>
-                                    <span class="label">LinkedIn</span></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </section>
+
             <section id="section06-section" class="inactive" style="display: none;"></section>
         </div>
     </div>
@@ -6609,13 +6606,31 @@
 })();
 
 
+// making error fields empty if the form is not submitted and user clicked on back btn
 
+  $(document).on("click",".back_btn",function(event){
+
+        $(".contactForm")[0].reset();
+        $("#firstname_error").html('');
+        $("#lastname_error").html('');
+        $("#telephone_error").html('');
+        $("#phone_error").html('');
+        $("#email_error").html('');
+        $("#address_error").html('');
+        $("#city_error").html('');
+        $("#state_error").html('');
+        $("#zipcode_error").html('');
+        $("#country_error").html('');
+        $("#comment_error").html('');
+  });
+
+   
 // Jquery For  Model button Click...........02 
 
    $(document).on("submit",".contactForm",function(event){
       event.preventDefault();
 
-
+      
       var _method   = $(this).attr('method');
       var _action   = $(this).attr('action');
       var _formData  = $(this).serialize();
@@ -6631,17 +6646,17 @@
 
 // Making Error Fields Empty................
        
-    $("#firstname_error").html('');
-    $("#lastname_error").html('');
-    $("#telephone_error").html('');
-    $("#phone_error").html('');
-    $("#email_error").html('');
-    $("#address_error").html('');
-    $("#city_error").html('');
-    $("#state_error").html('');
-    $("#zipcode_error").html('');
-    $("#country_error").html('');
-    $("#comment_error").html('');
+        $("#firstname_error").html('');
+        $("#lastname_error").html('');
+        $("#telephone_error").html('');
+        $("#phone_error").html('');
+        $("#email_error").html('');
+        $("#address_error").html('');
+        $("#city_error").html('');
+        $("#state_error").html('');
+        $("#zipcode_error").html('');
+        $("#country_error").html('');
+        $("#comment_error").html('');
 
 // Main Ajax Method.........................03
 
