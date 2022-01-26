@@ -4930,6 +4930,14 @@
             transform: translateY(0)
         }
     }</style>
+
+   {{--  error styling.......................  --}}
+    <style>
+        .custom_error{
+            color:red;
+            font-size: bold;
+        }
+    </style>
 </head>
 <body class="is-ready" cz-shortcut-listen="true">
 <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 40 40"
@@ -5123,38 +5131,47 @@
                                <div class="inner">
                                     <div class="field">
                                         <input type="text" name="firstname" id="form02-firstname" placeholder="First Name" maxlength="128">
+                                      <div id="firstname_error" class="custom_error"></div>
                                     </div>
 
                                     <div class="field">
                                         <input type="text" name="lname" id="form02-lname" placeholder="Last Name" maxlength="128">
+                                        <div id="lastname_error" class="custom_error"></div>
                                     </div>
 
                                     <div class="field">
                                         <input type="text" name="telephone" id="form02-telephone" placeholder="Telephone" maxlength="64" >
+                                        <div id="telephone_error" class="custom_error"></div>
                                     </div>
 
                                     <div class="field">
                                         <input type="text" name="phone" id="form02-phone" placeholder="Phone Number" maxlength="64" >
+                                        <div id="phone_error" class="custom_error"></div>
                                     </div>
                                     
                                     <div class="field">
                                         <input type="email" name="email" id="form02-email" placeholder="Email" maxlength="128" >
+                                        <div id="email_error" class="custom_error"></div>
                                     </div>
 
                                     <div class="field">
                                         <textarea data-gramm_editor="false" name="address" id="form02-address" placeholder="Address" maxlength="16384"></textarea>
+                                        <div id="address_error" class="custom_error"></div>
                                     </div>
 
                                     <div class="field">
                                         <input type="text" name="city" id="form02-city" placeholder="City" maxlength="128" >
+                                         <div id="city_error" class="custom_error"></div>
                                     </div>
                                     
                                     <div class="field">
                                         <input type="text" name="state" id="form02-state" placeholder="State" maxlength="128" >
+                                        <div id="state_error" class="custom_error"></div>
                                     </div>
 
                                     <div class="field">
                                         <input type="text" name="zip_code" id="form02-zipcode" placeholder="Zip Code" maxlength="128" >
+                                        <div id="zipcode_error" class="custom_error"></div>
                                     </div>
                                  <div class="field">
                                     <select id="country" name="country" id="form02-country" >
@@ -5412,10 +5429,12 @@
                                             <option value="ZM">Zambia</option>
                                             <option value="ZW">Zimbabwe</option>
                                         </select>
+                                        <div id="country_error" class="custom_error"></div>
                                    </div>
 
                                     <div class="field">
                                         <textarea data-gramm_editor="false" name="comment" id="form02-comment" placeholder="Your Comments" maxlength="16384" ></textarea>
+                                       <div id="comment_error" class="custom_error"></div>
                                     </div>
 
                                     <div class="field">
@@ -6611,10 +6630,18 @@
       });
 
 // Making Error Fields Empty................
-
-   /*   $("#student_name_error").html('');
-      $("#student_email_error").html('');
-      $("#student_contact_error").html('');*/
+       
+    $("#firstname_error").html('');
+    $("#lastname_error").html('');
+    $("#telephone_error").html('');
+    $("#phone_error").html('');
+    $("#email_error").html('');
+    $("#address_error").html('');
+    $("#city_error").html('');
+    $("#state_error").html('');
+    $("#zipcode_error").html('');
+    $("#country_error").html('');
+    $("#comment_error").html('');
 
 // Main Ajax Method.........................03
 
@@ -6640,10 +6667,34 @@
        
         }
       },
+        error :function (error){
+          if(error){
+            $("#firstname_error").text(error.responseJSON.errors.firstname);
+            $("#lastname_error").text(error.responseJSON.errors.lname);
+            $("#telephone_error").text(error.responseJSON.errors.telephone);
+            $("#phone_error").text(error.responseJSON.errors.phone);
+            $("#email_error").text(error.responseJSON.errors.email);
+            $("#address_error").text(error.responseJSON.errors.address);
+            $("#city_error").text(error.responseJSON.errors.city);
+            $("#state_error").text(error.responseJSON.errors.state);
+            $("#zipcode_error").text(error.responseJSON.errors.zip_code);
+            $("#country_error").text(error.responseJSON.errors.country);
+            $("#comment_error").text(error.responseJSON.errors.comment);
+          }
+        }
 
       });
-
 });
+
+
+
+
+
+
+
+
+
+
 
 
 </script> 
