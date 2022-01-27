@@ -30,7 +30,7 @@
 				</div>
 				<div class="col-xs-8 text-right menu-1">
 					<ul>
-						<li><a href="#">Whatsapp</a></li>
+						<li><a href="https://wa.me/+919925225292">Whatsapp</a></li>
 						<li><a href="#">Make Appointment</a></li>
 						{{-- <li><a href="#">Call Now</a></li> --}}
 					</ul>
@@ -263,11 +263,11 @@
 	</div>
 
 	
-          <footer id="gtco-footer" role="contentinfo">
+       <footer id="gtco-footer" role="contentinfo">
 		<div class="gtco-container">
-			<div class="row row-p	b-md">
+			{{-- <div class="row row-p	b-md"> --}}
 
-				<div class="col-md-4">
+				{{-- <div class="col-md-4">
 					<div class="gtco-widget">
 						<h3>About <span class="footer-logo">Travel Story<span>.<span></span></h3>
 						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore eos molestias quod sint ipsum possimus temporibus officia iste perspiciatis consectetur in fugiat repudiandae cum. Totam cupiditate nostrum ut neque ab?</p>
@@ -294,9 +294,9 @@
 						</ul>
 					</div>
 				</div>
-
-			</div>
-
+ --}}
+		{{-- 	</div>
+ --}}
 			<div class="row copyright">
 				<div class="col-md-12">
 					<p class="pull-left">
