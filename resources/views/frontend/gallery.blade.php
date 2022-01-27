@@ -1,162 +1,304 @@
 @extends('layouts.master')
 
 @section('title')
-       <title>Hello, world!</title>
+       <title>Gallery</title>
 @endsection
 
 @section('page-css')
-       <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-
-    <style>
-    	.image1 {
-    	  margin-top: 20px;
-		  display: block;
-		  margin-left: auto;
-		  margin-right: auto;
-		  width: 70%;
-		  
-         }
-         div.gallery {
-  border: 1px solid #ccc;
-}
-
-div.gallery:hover {
-  border: 1px solid #777;
-}
-
-div.gallery img {
-  width: 100%;
-  height: auto;
-}
-.gallery-text{
-	text-align: center;
-	font-family: verdana;
-	font-size: bold;
-	margin-top:50px;
-}
-
-div.desc {
-  padding: 15px;
-  text-align: center;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-.responsive {
-    padding: 27px 12px;
-    float: left;
-    width: 45.99999%;
-}
-
-@media only screen and (max-width: 700px) {
-  .responsive {
-    width: 49.99999%;
-    margin: 6px 0;
-  }
-}
-
-@media only screen and (max-width: 500px) {
-  .responsive {
-    width: 100%;
-  }
-}
-
-    </style>
-
+     
 @endsection
 
 
 
 @section('main-content')
-      
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-   <div class="container-fluid">
-    <a class="navbar-brand" href="#">Travel Story</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Whatsapp</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Make Appointment</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Call Now</a>
-        </li>        
-      </ul>
-    </div>
-  </div>
-</nav>
+      <div class="gtco-loader"></div>
+	
+	<div id="page">
 
-
-<div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img class="image1" src="{{asset('assets/images/SixSensesFortBarwara.jpg')}}" class="w-40" alt="...">
-    </div>
-  </div>
-</div>
-
-
-<h2 class="gallery-text">Image Gallery</h2>
- 
-<div class="container">
-	  	<div class="responsive">
-		 <div class="gallery">
-		    <a target="_blank" href="{{asset('assets/images/gallery/Dubai/dubai_1.jpg')}}">
-		      <img src="{{asset('assets/images/gallery/Dubai/dubai_1.jpg')}}" alt="Forest" width="600" height="400">
-		    </a>
-		    <div class="desc">dubai</div>
-		  </div>
+	
+	<div class="page-inner">
+	<nav class="gtco-nav" role="navigation">
+		<div class="gtco-container">
+			
+			<div class="row">
+				<div class="col-sm-4 col-xs-12">
+					<div id="gtco-logo"><a href="index.html">Travel Story <em>.</em></a></div>
+				</div>
+				<div class="col-xs-8 text-right menu-1">
+					<ul>
+						<li><a href="#">Whatsapp</a></li>
+						<li><a href="#">Make A Call</a></li>
+						<li class="btn-cta"><a href="#"><span>Make Appointment</span></a></li>
+					</ul>
+				</div>
+			</div>
+			
 		</div>
+	</nav>
+	
+	<header id="gtco-header" class="gtco-cover" role="banner" style="background-image: url(assets/vendor/images/img_4.jpg)">
+		<div class="overlay"></div>
+		<div class="gtco-container">
+			<div class="row">
+				<div class="col-md-12 col-md-offset-0 text-left">
+					
+
+					<div class="row row-mt-15em">
+						<div class="col-md-7 mt-text animate-box" data-animate-effect="fadeInUp">
+							<span class="intro-text-small">Welcome to travel Story</span>
+							<h1>Build website using this template.</h1>	
+						</div>
+						
+					</div>
+							
+					
+				</div>
+			</div>
+		</div>
+	</header>
+	
+	<div class="gtco-section border-bottom">
+		<div class="gtco-container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 text-center gtco-heading">
+					<h2>Gallery Images</h2>
+					<p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
+				</div>
+			</div>
+			<h2>Dubai</h2>
+			<div class="row">
+				<div class="col-lg-4 col-md-4 col-sm-6">
+					<a href="{{asset('assets/images/gallery/Dubai/dubai_1.jpg')}}" class="fh5co-project-item image-popup">
+						<figure>
+							<div class="overlay"><i class="ti-plus"></i></div>
+							<img src="{{asset('assets/images/gallery/Dubai/dubai_1.jpg')}}" alt="Image" class="img-responsive">
+						</figure>
+						<div class="fh5co-text">
+							<h2>Dubai Visit</h2>
+							<p>Far far away, behind the word mountains, far from the countries Vokalia..</p>
+						</div>
+					</a>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-6">
+					<a href="{{asset('assets/images/gallery/Dubai/dubai_3.jpg')}}" class="fh5co-project-item image-popup">
+						<figure>
+							<div class="overlay"><i class="ti-plus"></i></div>
+							<img src="{{asset('assets/images/gallery/Dubai/dubai_3.jpg')}}" alt="Image" class="img-responsive">
+						</figure>
+						<div class="fh5co-text">
+							<h2>Constructive heading</h2>
+							<p>Far far away, behind the word mountains, far from the countries Vokalia..</p>
+						</div>
+					</a>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-6">
+					<a href="{{asset('assets/images/gallery/Dubai/dubai_4.jpg')}}" class="fh5co-project-item image-popup">
+						<figure>
+							<div class="overlay"><i class="ti-plus"></i></div>
+							<img src="{{asset('assets/images/gallery/Dubai/dubai_4.jpg')}}" alt="Image" class="img-responsive">
+						</figure>
+						<div class="fh5co-text">
+							<h2>Constructive heading</h2>
+							<p>Far far away, behind the word mountains, far from the countries Vokalia..</p>
+						</div>
+					</a>
+				</div>
+			</div>
+
+            <h2>Maldives</h2>
+			<div class="row">
+
+				<div class="col-lg-4 col-md-4 col-sm-6">
+					<a href="{{asset('assets/images/gallery/Maldives/maldives_5.jpeg')}}" class="fh5co-project-item image-popup">
+						<figure>
+							<div class="overlay"><i class="ti-plus"></i></div>
+							<img src="{{asset('assets/images/gallery/Maldives/maldives_5.jpeg')}}" alt="Image" class="img-responsive">
+						</figure>
+						<div class="fh5co-text">
+							<h2>Constructive heading</h2>
+							<p>Far far away, behind the word mountains, far from the countries Vokalia..</p>
+						</div>
+					</a>
+				</div>
+
+				<div class="col-lg-4 col-md-4 col-sm-6">
+					<a href="{{asset('assets/images/gallery/Maldives/maldives_2.jpg')}}" class="fh5co-project-item image-popup">
+						<figure>
+							<div class="overlay"><i class="ti-plus"></i></div>
+							<img src="{{asset('assets/images/gallery/Maldives/maldives_2.jpg')}}" alt="Image" class="img-responsive">
+						</figure>
+						<div class="fh5co-text">
+							<h2>Constructive heading</h2>
+							<p>Far far away, behind the word mountains, far from the countries Vokalia..</p>
+						</div>
+					</a>
+				</div>
+
+				<div class="col-lg-4 col-md-4 col-sm-6">
+					<a href="{{asset('assets/images/gallery/Maldives/maldives_4.jpeg')}}" class="fh5co-project-item image-popup">
+						<figure>
+							<div class="overlay"><i class="ti-plus"></i></div>
+							<img src="{{asset('assets/images/gallery/Maldives/maldives_4.jpeg')}}" alt="Image" class="img-responsive">
+						</figure>
+						<div class="fh5co-text">
+							<h2>Constructive heading</h2>
+							<p>Far far away, behind the word mountains, far from the countries Vokalia..</p>
+						</div>
+					</a>
+				</div>
+			</div>
+
+			<h2>Sri Lanka</h2>
+			<div class="row">
+				<div class="col-lg-4 col-md-4 col-sm-6">
+					<a href="{{asset('assets/images/gallery/SriLanka/srilanka_2.jpg')}}" class="fh5co-project-item image-popup">
+						<figure>
+							<div class="overlay"><i class="ti-plus"></i></div>
+							<img src="{{asset('assets/images/gallery/SriLanka/srilanka_2.jpg')}}" alt="Image" class="img-responsive">
+						</figure>
+						<div class="fh5co-text">
+							<h2>Constructive heading</h2>
+							<p>Far far away, behind the word mountains, far from the countries Vokalia..</p>
+						</div>
+					</a>
+				</div>
+
+				<div class="col-lg-4 col-md-4 col-sm-6">
+					<a href="{{asset('assets/images/gallery/SriLanka/srilanka_2.jpg')}}" class="fh5co-project-item image-popup">
+						<figure>
+							<div class="overlay"><i class="ti-plus"></i></div>
+							<img src="{{asset('assets/images/gallery/SriLanka/srilanka_3.jpg')}}" alt="Image" class="img-responsive">
+						</figure>
+						<div class="fh5co-text">
+							<h2>Constructive heading</h2>
+							<p>Far far away, behind the word mountains, far from the countries Vokalia..</p>
+						</div>
+					</a>
+				</div>
+
+				<div class="col-lg-4 col-md-4 col-sm-6">
+					<a href="{{asset('assets/images/gallery/SriLanka/srilanka_4.jpg')}}" class="fh5co-project-item image-popup">
+						<figure>
+							<div class="overlay"><i class="ti-plus"></i></div>
+							<img src="{{asset('assets/images/gallery/SriLanka/srilanka_4.jpg')}}" alt="Image" class="img-responsive">
+						</figure>
+						<div class="fh5co-text">
+							<h2>Constructive heading</h2>
+							<p>Far far away, behind the word mountains, far from the countries Vokalia..</p>
+						</div>
+					</a>
+				</div>
+			</div>
+
+			<h2>Turkey</h2>
+			<div class="row">
+
+				<div class="col-lg-4 col-md-4 col-sm-6">
+					<a href="{{asset('assets/images/gallery/Maldives/maldives_5.jpeg')}}" class="fh5co-project-item image-popup">
+						<figure>
+							<div class="overlay"><i class="ti-plus"></i></div>
+							<img src="{{asset('assets/images/gallery/Maldives/maldives_5.jpeg')}}" alt="Image" class="img-responsive">
+						</figure>
+						<div class="fh5co-text">
+							<h2>Constructive heading</h2>
+							<p>Far far away, behind the word mountains, far from the countries Vokalia..</p>
+						</div>
+					</a>
+				</div>
+
+				<div class="col-lg-4 col-md-4 col-sm-6">
+					<a href="{{asset('assets/images/gallery/Maldives/maldives_2.jpg')}}" class="fh5co-project-item image-popup">
+						<figure>
+							<div class="overlay"><i class="ti-plus"></i></div>
+							<img src="{{asset('assets/images/gallery/Maldives/maldives_2.jpg')}}" alt="Image" class="img-responsive">
+						</figure>
+						<div class="fh5co-text">
+							<h2>Constructive heading</h2>
+							<p>Far far away, behind the word mountains, far from the countries Vokalia..</p>
+						</div>
+					</a>
+				</div>
+
+				<div class="col-lg-4 col-md-4 col-sm-6">
+					<a href="{{asset('assets/images/gallery/Maldives/maldives_4.jpeg')}}" class="fh5co-project-item image-popup">
+						<figure>
+							<div class="overlay"><i class="ti-plus"></i></div>
+							<img src="{{asset('assets/images/gallery/Maldives/maldives_4.jpeg')}}" alt="Image" class="img-responsive">
+						</figure>
+						<div class="fh5co-text">
+							<h2>Constructive heading</h2>
+							<p>Far far away, behind the word mountains, far from the countries Vokalia..</p>
+						</div>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+    <footer id="gtco-footer" role="contentinfo">
+		<div class="gtco-container">
+			<div class="row row-p	b-md">
+
+				<div class="col-md-4">
+					<div class="gtco-widget">
+						<h3>About <span class="footer-logo">Splash<span>.<span></span></h3>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore eos molestias quod sint ipsum possimus temporibus officia iste perspiciatis consectetur in fugiat repudiandae cum. Totam cupiditate nostrum ut neque ab?</p>
+					</div>
+				</div>
+
+				<div class="col-md-4 col-md-push-1">
+					<div class="gtco-widget">
+						<h3>Links</h3>
+						<ul class="gtco-footer-links">
+							<li><a href="#">Knowledge Base</a></li>
+							<li><a href="#">Career</a></li>
+							<li><a href="#">Press</a></li>
+							<li><a href="#">Terms of services</a></li>
+							<li><a href="#">Privacy Policy</a></li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="col-md-4">
+					<div class="gtco-widget">
+						<h3>Get In Touch</h3>
+						<ul class="gtco-quick-contact">
+							<li><a href="#"><i class="icon-phone"></i> +1 234 567 890</a></li>
+							<li><a href="#"><i class="icon-mail2"></i> info@FreeHTML5.co</a></li>
+							<li><a href="#"><i class="icon-chat"></i> Live Chat</a></li>
+						</ul>
+					</div>
+				</div>
+
+			</div>
+
+			<div class="row copyright">
+				<div class="col-md-12">
+					<p class="pull-left">
+						<small class="block">&copy; 2016 Free HTML5. All Rights Reserved.</small> 
+						<small class="block">Designed by <a href="http://FreeHTML5.co/" target="_blank">FreeHTML5.co</a> Demo Images: <a href="http://unsplash.co/" target="_blank">Unsplash</a></small>
+					</p>
+					<p class="pull-right">
+						<ul class="gtco-social-icons pull-right">
+							<li><a href="#"><i class="icon-twitter"></i></a></li>
+							<li><a href="#"><i class="icon-facebook"></i></a></li>
+							<li><a href="#"><i class="icon-linkedin"></i></a></li>
+							<li><a href="#"><i class="icon-dribbble"></i></a></li>
+						</ul>
+					</p>
+				</div>
+			</div>
+
+		</div>
+	</footer>
+	</div>
+
+	</div>
+
+	<div class="gototop js-top">
+		<a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
+	</div>
   
-	  	<div class="responsive">
-		  <div class="gallery">
-		    <a target="_blank" href="{{asset('assets/images/gallery/Dubai/dubai_2.jpg')}}">
-		      <img src="{{asset('assets/images/gallery/Dubai/dubai_2.jpg')}}" alt="Northern Lights" width="600" height="400">
-		    </a>
-		    <div class="desc">dubai</div>
-		  </div>
-		</div>
-
-		 <div class="responsive">
-		   <div class="gallery">
-		    <a target="_blank" href="{{asset('assets/images/gallery/home/cover_5.jpg')}}">
-		      <img src="{{asset('assets/images/gallery/home/cover_5.jpg')}}" alt="Forest" width="600" height="400">
-		    </a>
-		    <div class="desc">home</div>
-		  </div>
-		</div>
-
-		<div class="responsive">
-		   <div class="gallery">
-		    <a target="_blank" href="{{asset('assets/images/gallery/home/cover_2.jpg')}}">
-		      <img src="{{asset('assets/images/gallery/home/cover_2.jpg')}}" alt="Forest" width="600" height="400">
-		    </a>
-		    <div class="desc">home</div>
-		  </div>
-		</div>
-
-		<div class="responsive">
-		  <div class="gallery">
-		    <a target="_blank" href="{{asset('assets/images/gallery/home/cover_3.jpg')}}">
-		      <img src="{{asset('assets/images/gallery/home/cover_3.jpg')}}" alt="Northern Lights" width="600" height="400">
-		    </a>
-		    <div class="desc">home</div>
-		  </div>
-		</div>
-</div>
-
 @endsection
 
 
@@ -167,14 +309,5 @@ div.desc {
 
 @section('page-js')
 
-    <!-- Optional JavaScript; choose one of the two! -->
-
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
-    -->
+   
 @endsection
