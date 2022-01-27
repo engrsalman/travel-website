@@ -1,6 +1,4 @@
-<html lang="en">
-
-     
+<html lang="en">    
 <head> 
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <title>Voyage Planner</title>
@@ -4981,7 +4979,7 @@
                               <!--   <li><a href="#about" class="button n01">ABOUT US</a></li> -->
                                 <li><a href="#about" class="button n04">ABOUT US</a></li>
                                 <li><a href="#services" class="button n02">SERVICES</a></li>
-                                <li><a href="#gallery" class="button n05">GALLERY</a></li>
+                                <li><a href="{{route('gallery')}}" class="button n05">GALLERY</a></li>
                                 <li><a href="#work" class="button n03">TESTIMONIALS</a></li>
                                 <li><a href="#contact" class="button n07">CONTACT US</a></li>
                                 

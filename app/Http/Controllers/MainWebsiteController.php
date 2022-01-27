@@ -24,9 +24,9 @@ class MainWebsiteController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function create()
+    public function Gallery()
     {
-        //
+        return view('frontend.gallery');
     }
 
     /**
