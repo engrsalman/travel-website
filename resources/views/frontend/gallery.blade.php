@@ -5,17 +5,21 @@
 @endsection
 
 @section('page-css')
-     
+       <style>
+     	.image-main{
+     		padding-top: 100px;
+     		margin-left: auto;
+     		margin-right: auto;
+     		width:100%;
+     	}
+     </style>
 @endsection
 
 
 
 @section('main-content')
-      <div class="gtco-loader"></div>
-	
-	<div id="page">
-
-	
+ <div class="gtco-loader"></div>
+  <div id="page">
 	<div class="page-inner">
 	<nav class="gtco-nav" role="navigation">
 		<div class="gtco-container">
@@ -28,17 +32,18 @@
 					<ul>
 						<li><a href="#">Whatsapp</a></li>
 						<li><a href="#">Make Appointment</a></li>
-						<li><a href="#">Call Now</a></li>
+						{{-- <li><a href="#">Call Now</a></li> --}}
 					</ul>
 				</div>
 			</div>
 			
 		</div>
 	</nav>
+
+	<div class="container">
+		<img class="image-main" src="{{asset('assets/images/SixSensesFortBarwara.jpg')}}" alt="">
+	</div>
 	
-	{{-- <header id="gtco-header" class="gtco-cover" role="banner" style="background-image: url(assets/vendor/images/img_4.jpg)">
-		<div class="overlay"></div>
-	</header> --}}
 	
 	<div class="gtco-section border-bottom">
 		<div class="gtco-container">

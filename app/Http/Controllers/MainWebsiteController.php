@@ -29,6 +29,13 @@ class MainWebsiteController extends Controller
         return view('frontend.gallery');
     }
 
+
+
+    public function Testimonials()
+    {
+        return view('frontend.testimonials');
+    }
+
     /**
      * Store a newly created resource in storage.
      *

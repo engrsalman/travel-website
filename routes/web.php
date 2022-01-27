@@ -21,5 +21,6 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/','MainWebsiteController@index')->name('index_page');
 Route::get('/gallery','MainWebsiteController@Gallery')->name('gallery');
+Route::get('/testimonials','MainWebsiteController@Testimonials')->name('testimonials');
 
 Route::post('/storedata','MainWebsiteController@StoreData')->name('storedata');

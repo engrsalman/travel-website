@@ -4980,7 +4980,7 @@
                                 <li><a href="#about" class="button n04">ABOUT US</a></li>
                                 <li><a href="#services" class="button n02">SERVICES</a></li>
                                 <li><a href="{{route('gallery')}}" class="button n05">GALLERY</a></li>
-                                <li><a href="#work" class="button n03">TESTIMONIALS</a></li>
+                                <li><a href="{{route('testimonials')}}" class="button n03">TESTIMONIALS</a></li>
                                 <li><a href="#contact" class="button n07">CONTACT US</a></li>
                                 
                                <!--  <li><a href="https://medium.com/reborn-unsettled" class="button n06">BLOG</a></li> -->
@@ -5119,7 +5119,7 @@
                                     </svg>
                                     <span class="label">Phone</span></a>
                                 </li>
-                                <li><a class="n02" href="https://wa.me/message/CPHIV2HCNPRKB1">
+                                <li><a class="n02" href="https://wa.me/+919925225292">
                                     <svg>
                                         <use xlink:href="#icon-934"></use>
                                     </svg>
