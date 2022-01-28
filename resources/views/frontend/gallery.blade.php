@@ -265,9 +265,9 @@
 	
        <footer id="gtco-footer" role="contentinfo">
 		<div class="gtco-container">
-			{{-- <div class="row row-p	b-md"> --}}
+		 <div class="row row-p	b-md"> 
 
-				{{-- <div class="col-md-4">
+				<div class="col-md-4">
 					<div class="gtco-widget">
 						<h3>About <span class="footer-logo">Travel Story<span>.<span></span></h3>
 						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore eos molestias quod sint ipsum possimus temporibus officia iste perspiciatis consectetur in fugiat repudiandae cum. Totam cupiditate nostrum ut neque ab?</p>
@@ -289,14 +289,13 @@
 						<h3>Get In Touch</h3>
 						<ul class="gtco-quick-contact">
 							<li><a href="#"><i class="icon-phone"></i> +91 99252 25292</a></li>
-							<li><a href="#"><i class="icon-mail2"></i> abc@gmail.com</a></li>
+							<li><a href="#"><i class="icon-mail2"></i> info@trawellstory.in</a></li>
 							<li><a href="#"><i class="fa fa-whatsapp"></i></i> 079 2684 0152</a></li>
 						</ul>
 					</div>
 				</div>
- --}}
-		{{-- 	</div>
- --}}
+ 			</div>
+
 			<div class="row copyright">
 				<div class="col-md-12">
 					<p class="pull-left">

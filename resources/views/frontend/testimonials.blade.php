@@ -32,7 +32,10 @@ p {
 }
 
 .card-header img {
-    border: 5px solid white !important
+    border: 5px solid white !important;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
 }
 
 .outside {
@@ -175,7 +178,7 @@ hr {
             <div class="card mt-3">
                 <div class="card-header bg-white text-center border-0 ">
                     <div class="row justify-content-center ">
-                        <div class="col"> <img class="align-self-center text-center  outside img-fluid" src="{{asset('assets/images/testimonials/imag_2.jpeg')}}" width="110" height="110"> </div>
+                        <div class="col"> <img class="align-self-center text-center  outside img-fluid" src="{{asset('assets/images/testimonials/imag_3.jpeg')}}" width="110" height="110"> </div>
                     </div>
                     <div class="row text-center name">
                         <div class="col">
@@ -199,7 +202,7 @@ hr {
             <div class="card mt-3">
                 <div class="card-header bg-white text-center border-0 ">
                     <div class="row justify-content-center ">
-                        <div class="col"> <img class="align-self-center text-center  outside img-fluid" src="{{asset('assets/images/testimonials/imag_2.jpeg')}}" width="110" height="110"> </div>
+                        <div class="col"> <img class="align-self-center text-center  outside img-fluid" src="{{asset('assets/images/testimonials/imag_1.jpeg')}}" width="110" height="110"> </div>
                     </div>
                     <div class="row text-center name">
                         <div class="col">
@@ -225,13 +228,42 @@ hr {
       <footer id="gtco-footer" role="contentinfo">
 		<div class="gtco-container">
 			<div class="row row-p	b-md">
+				<div class="col-md-4">
+					<div class="gtco-widget">
+						<h3>About <span class="footer-logo">Travel Story<span>.<span></span></h3>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore eos molestias quod sint ipsum possimus temporibus officia iste perspiciatis consectetur in fugiat repudiandae cum. Totam cupiditate nostrum ut neque ab?</p>
+					</div>
+				</div>
+
+				<div class="col-md-4 col-md-push-1">
+					<div class="gtco-widget">
+						<h3>Address</h3>
+						<p>E-503, Indraprastha 7,<br>
+                           Opp. Bodakdev Fire Station,<br>
+                           Bodakdev, Ahmedabad-380054,<br>
+                            Gujarat.</p>
+					</div>
+				</div>
+
+				<div class="col-md-4">
+					<div class="gtco-widget">
+						<h3>Get In Touch</h3>
+						<ul class="gtco-quick-contact">
+							<li><a href="#"><i class="icon-phone"></i> +91 99252 25292</a></li>
+							<li><a href="#"><i class="icon-mail2"></i> info@trawellstory.in</a></li>
+							<li><a href="#"><i class="fa fa-whatsapp"></i></i> 079 2684 0152</a></li>
+						</ul>
+					</div>
+				</div>
+ 			</div>
+
 			</div>
 
 			<div class="row copyright">
 				<div class="col-md-12">
 					<p class="pull-left">
 						<small class="block"></small> 
-						<small class="block">&copy; 2022 Free HTML5. All Rights Reserved. Designed by Finder IT Solution.</small>
+						<small style="margin-top: -16px;margin-left: 16px;font-size:100%;" class="block">&copy; 2022 Free HTML5. All Rights Reserved. Designed by Finder IT Solution.</small>
 					</p>
 					<p class="pull-right">
 						<ul class="gtco-social-icons pull-right">
